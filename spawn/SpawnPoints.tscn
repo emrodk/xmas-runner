@@ -1,0 +1,75 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://core/SpawnPoints.tres" type="Curve2D" id=1]
+
+[sub_resource type="GDScript" id=1]
+script/source = "extends Node2D
+
+onready var air_point:PathFollow2D= $Air
+onready var middle_air_point:PathFollow2D = $MiddleAir
+onready var floor_point:PathFollow2D= $Floor
+
+func _ready():
+	pass
+
+func get_position_level(height:int) -> Vector2:
+	var pos:Vector2
+	match height:
+		0:
+			pos= _get_floor_position()
+		1:
+			pos = _get_middle_air_position()
+		2:
+			pos = _get_air_position()
+	return _position_in_parent() + pos
+
+func get_floor_point() -> Vector2:
+	return _position_in_parent() + _get_floor_position()
+
+func get_air_point() -> Vector2:
+	return _position_in_parent() + _get_air_position()
+
+func _position_in_parent() -> Vector2:
+	return get_parent().position + position
+
+func _get_middle_air_position() -> Vector2:
+	return middle_air_point.position
+
+func _get_air_position() -> Vector2:
+	
+	return air_point.position
+
+func _get_floor_position() -> Vector2:
+	return floor_point.position
+"
+
+[node name="SpawnPoints" type="Path2D"]
+curve = ExtResource( 1 )
+script = SubResource( 1 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Air" type="PathFollow2D" parent="."]
+position = Vector2( -0.435914, -840.399 )
+offset = 844.845
+rotate = false
+cubic_interp = false
+loop = false
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="MiddleAir" type="PathFollow2D" parent="."]
+position = Vector2( 0.719184, -603.261 )
+rotation = -1.57567
+offset = 608.515
+
+[node name="Floor" type="PathFollow2D" parent="."]
+position = Vector2( 3.66364, 1.22827 )
+rotate = false
+cubic_interp = false
+loop = false
+__meta__ = {
+"_edit_group_": true
+}

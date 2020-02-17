@@ -1,0 +1,191 @@
+[gd_scene load_steps=20 format=2]
+
+[ext_resource path="res://Assets/Art/gui/back-snow.png" type="Texture" id=1]
+[ext_resource path="res://Assets/Art/gui/btn-retry.png" type="Texture" id=2]
+[ext_resource path="res://Assets/Art/gui/leaderboard-line.png" type="Texture" id=3]
+[ext_resource path="res://Assets/Art/icn-score.png" type="Texture" id=4]
+[ext_resource path="res://Assets/Art/gui/btn-exit.png" type="Texture" id=5]
+[ext_resource path="res://Assets/Art/gui/btn-retry-over.png" type="Texture" id=6]
+[ext_resource path="res://Assets/Art/gui/btn-pause-over.png" type="Texture" id=7]
+[ext_resource path="res://Assets/Scripts/HUD/HUD.gd" type="Script" id=8]
+[ext_resource path="res://Assets/Scripts/HUD/score.gd" type="Script" id=9]
+[ext_resource path="res://Assets/Scripts/Core/AdMob/AdMob.tscn" type="PackedScene" id=10]
+[ext_resource path="res://Assets/Art/gui/btn-pause.png" type="Texture" id=11]
+[ext_resource path="res://Assets/Art/gui/game-over.png" type="Texture" id=12]
+[ext_resource path="res://Assets/Art/gui/btn-exit-over.png" type="Texture" id=13]
+[ext_resource path="res://Assets/Art/gui/btn-play-b.png" type="Texture" id=14]
+[ext_resource path="res://Assets/Art/logo.png" type="Texture" id=15]
+[ext_resource path="res://Assets/Art/gui/btn-play-b-over.png" type="Texture" id=16]
+[ext_resource path="res://Assets/Art/ARCO for OSX.otf" type="DynamicFontData" id=17]
+
+[sub_resource type="DynamicFont" id=1]
+size = 192
+font_data = ExtResource( 17 )
+
+[sub_resource type="DynamicFont" id=2]
+size = 128
+font_data = ExtResource( 17 )
+
+[node name="HUD" type="Control"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+mouse_filter = 1
+script = ExtResource( 8 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Score" type="TextureRect" parent="."]
+anchor_left = 0.049
+anchor_right = 0.149
+anchor_bottom = 0.22
+margin_right = -0.17601
+margin_bottom = 0.279991
+rect_min_size = Vector2( 77, 127 )
+texture = ExtResource( 4 )
+expand = true
+stretch_mode = 6
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="score" type="Label" parent="."]
+anchor_left = 0.146
+anchor_right = 0.451
+anchor_bottom = 0.202
+margin_left = -6.10352e-05
+mouse_filter = 1
+custom_fonts/font = SubResource( 1 )
+text = "0"
+valign = 1
+script = ExtResource( 9 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="AdMob" parent="." instance=ExtResource( 10 )]
+
+[node name="Jump" type="TextureButton" parent="."]
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_left = 20.0
+margin_right = 20.0
+size_flags_horizontal = 0
+action_mode = 0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="pause" type="TextureButton" parent="."]
+pause_mode = 2
+anchor_left = 0.859
+anchor_right = 0.937
+anchor_bottom = 0.219
+margin_bottom = 0.855995
+rect_min_size = Vector2( 77, 127 )
+focus_mode = 0
+toggle_mode = true
+enabled_focus_mode = 0
+texture_normal = ExtResource( 11 )
+texture_pressed = ExtResource( 7 )
+expand = true
+stretch_mode = 5
+
+[node name="OnGameOver" type="TextureRect" parent="."]
+anchor_left = 0.2
+anchor_right = 0.8
+anchor_bottom = 1.0
+margin_left = 0.199997
+margin_right = 0.799988
+texture = ExtResource( 1 )
+expand = true
+stretch_mode = 6
+
+[node name="GameOver" type="TextureRect" parent="OnGameOver"]
+anchor_right = 1.0
+anchor_bottom = 0.421
+texture = ExtResource( 12 )
+expand = true
+stretch_mode = 6
+
+[node name="Score" type="TextureRect" parent="OnGameOver"]
+anchor_left = 0.298
+anchor_top = 0.431
+anchor_right = 0.698
+anchor_bottom = 0.605
+rect_min_size = Vector2( 900, 380 )
+texture = ExtResource( 3 )
+expand = true
+stretch_mode = 1
+
+[node name="Label" type="Label" parent="OnGameOver/Score"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+mouse_filter = 1
+custom_fonts/font = SubResource( 2 )
+text = "Best Score
+0"
+align = 1
+valign = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Retry" type="TextureButton" parent="OnGameOver"]
+anchor_left = 0.328
+anchor_top = 0.665
+anchor_right = 0.68
+anchor_bottom = 0.82
+rect_min_size = Vector2( 819.667, 338.21 )
+texture_normal = ExtResource( 2 )
+texture_pressed = ExtResource( 6 )
+expand = true
+stretch_mode = 5
+
+[node name="Exit" type="TextureButton" parent="OnGameOver"]
+anchor_left = 0.447
+anchor_top = 0.85
+anchor_right = 0.553
+anchor_bottom = 0.971
+margin_right = 0.584106
+rect_min_size = Vector2( 248, 266 )
+texture_normal = ExtResource( 5 )
+texture_pressed = ExtResource( 13 )
+expand = true
+stretch_mode = 5
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="OnStart" type="TextureRect" parent="."]
+anchor_left = 0.199
+anchor_right = 0.801
+anchor_bottom = 1.0
+texture = ExtResource( 1 )
+expand = true
+stretch_mode = 6
+
+[node name="TextureRect" type="TextureRect" parent="OnStart"]
+anchor_right = 1.0
+anchor_bottom = 0.5
+texture = ExtResource( 15 )
+expand = true
+stretch_mode = 6
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Play" type="TextureButton" parent="OnStart"]
+anchor_left = 0.265
+anchor_top = 0.598
+anchor_right = 0.733
+anchor_bottom = 0.906
+texture_normal = ExtResource( 14 )
+texture_pressed = ExtResource( 16 )
+expand = true
+stretch_mode = 5
+[connection signal="button_down" from="Jump" to="." method="_on_Jump_button_down"]
+[connection signal="pressed" from="pause" to="." method="_on_pause_pressed"]
+[connection signal="pressed" from="OnGameOver/Retry" to="." method="_start_to_run"]
+[connection signal="pressed" from="OnGameOver/Exit" to="." method="_on_Exit_pressed"]
+[connection signal="pressed" from="OnStart/Play" to="." method="_start_to_run"]

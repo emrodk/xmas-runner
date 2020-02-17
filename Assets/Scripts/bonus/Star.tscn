@@ -1,0 +1,47 @@
+[gd_scene load_steps=12 format=2]
+
+[ext_resource path="res://Assets/Art/star/star_4.png" type="Texture" id=1]
+[ext_resource path="res://Assets/Art/star/star_2.png" type="Texture" id=2]
+[ext_resource path="res://Assets/Art/star/star_1.png" type="Texture" id=3]
+[ext_resource path="res://Assets/Scripts/bonus/Behaviors/Reward.gd" type="Script" id=4]
+[ext_resource path="res://core/spawnable.tscn" type="PackedScene" id=5]
+[ext_resource path="res://Assets/Art/star/star_5.png" type="Texture" id=6]
+[ext_resource path="res://Assets/Art/star/star_3.png" type="Texture" id=7]
+[ext_resource path="res://Assets/Scripts/bonus/coin_taken.tres" type="Animation" id=8]
+[ext_resource path="res://Assets/Art/star/star_6.png" type="Texture" id=9]
+
+[sub_resource type="CircleShape2D" id=1]
+radius = 37.2018
+
+[sub_resource type="SpriteFrames" id=2]
+animations = [ {
+"frames": [ ExtResource( 3 ), ExtResource( 2 ), ExtResource( 7 ), ExtResource( 1 ), ExtResource( 6 ), ExtResource( 9 ) ],
+"loop": true,
+"name": "default",
+"speed": 5.0
+} ]
+
+[node name="Star" type="Area2D"]
+scale = Vector2( 3, 3 )
+collision_layer = 4
+collision_mask = 4
+script = ExtResource( 4 )
+coin_reward = 5
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource( 1 )
+
+[node name="AnimatedSprite" type="AnimatedSprite" parent="."]
+frames = SubResource( 2 )
+frame = 3
+speed_scale = 2.1
+playing = true
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+anims/coin_taken = ExtResource( 8 )
+
+[node name="spawnable" parent="." instance=ExtResource( 5 )]
+scale = Vector2( 3, 3 )
+root_path = NodePath("..")
+high_level = 2
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]

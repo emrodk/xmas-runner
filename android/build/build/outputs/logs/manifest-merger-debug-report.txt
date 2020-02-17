@@ -1,0 +1,329 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/rookie/Proyectos/RookieRunner/android/build/AndroidManifest.xml:2:1-71:12
+INJECTED from /home/rookie/Proyectos/RookieRunner/android/build/AndroidManifest.xml:2:1-71:12
+INJECTED from /home/rookie/Proyectos/RookieRunner/android/build/AndroidManifest.xml:2:1-71:12
+INJECTED from /home/rookie/Proyectos/RookieRunner/android/build/AndroidManifest.xml:2:1-71:12
+MERGED from [godot-lib.debug.aar] /home/rookie/.gradle/caches/transforms-2/files-2.1/54b80346a282e8b7e6b057a7011e5d8e/AndroidManifest.xml:2:1-21:12
+MERGED from [com.google.android.gms:play-services-games:19.0.0] /home/rookie/.gradle/caches/transforms-2/files-2.1/bd3f8609b4b7c06b8b0c1fca80454538/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-auth:17.0.0] /home/rookie/.gradle/caches/transforms-2/files-2.1/6affc1dcd2fb7ffa36922240517a5e44/AndroidManifest.xml:17:1-39:12
+MERGED from [com.google.android.gms:play-services-ads:16.0.0] /home/rookie/.gradle/caches/transforms-2/files-2.1/1d4b9220e50738674bb91dc7081dad43/AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.gms:play-services-drive:17.0.0] /home/rookie/.gradle/caches/transforms-2/files-2.1/d3205f8653189a420097cf7a85cae146/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-auth-api-phone:17.0.0] /home/rookie/.gradle/caches/transforms-2/files-2.1/24c70606d974484ee6efcdd526049857/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-auth-base:17.0.0] /home/rookie/.gradle/caches/transforms-2/files-2.1/b4571f8bb6ad419f89f75a8855d3e4fe/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-base:17.0.0] /home/rookie/.gradle/caches/transforms-2/files-2.1/97bfe63d54b1c35ed48da7d5d7064341/AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /home/rookie/.gradle/caches/transforms-2/files-2.1/818efeb0c66e71df320976b80a7ee440/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-ads-identifier:16.0.0] /home/rookie/.gradle/caches/transforms-2/files-2.1/76d872f219744d7f46d9ba88d3b78a0d/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-ads-lite:16.0.0] /home/rookie/.gradle/caches/transforms-2/files-2.1/e08c4000668cd6668cffdd027e50a07f/AndroidManifest.xml:17:1-36:12
+MERGED from [com.google.android.gms:play-services-gass:16.0.0] /home/rookie/.gradle/caches/transforms-2/files-2.1/a9c9c832adef928c1b6d681f21450e08/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /home/rookie/.gradle/caches/transforms-2/files-2.1/64b9aded42b44701343e672f6715b0b0/AndroidManifest.xml:17:1-28:12
+MERGED from [androidx.fragment:fragment:1.0.0] /home/rookie/.gradle/caches/transforms-2/files-2.1/8ecb503c243a8b585c19cf5fecee7378/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.browser:browser:1.0.0] /home/rookie/.gradle/caches/transforms-2/files-2.1/72d1bbba8bf383c0433aad41fa4cb2fc/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /home/rookie/.gradle/caches/transforms-2/files-2.1/55da32bc307de6cd8963f1e5da602e7b/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/rookie/.gradle/caches/transforms-2/files-2.1/76fe599d02f1febf78a893dfad6cf223/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /home/rookie/.gradle/caches/transforms-2/files-2.1/71561fe04f37c5db5eb61c2641f3aaf5/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.gms:play-services-ads-base:16.0.0] /home/rookie/.gradle/caches/transforms-2/files-2.1/920a7d6d21930c077f6b3c6786aae47c/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/rookie/.gradle/caches/transforms-2/files-2.1/c87992f0829d80ae761e3db77e78aa1b/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /home/rookie/.gradle/caches/transforms-2/files-2.1/0457e5618ffd3743087eb6ab1ffa135a/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/rookie/.gradle/caches/transforms-2/files-2.1/c0c564d7e09cdfa03902bae059905c89/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /home/rookie/.gradle/caches/transforms-2/files-2.1/d0343d13c2c61c61558e77c77d30a24d/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] /home/rookie/.gradle/caches/transforms-2/files-2.1/63dfe47d370a3c6ad77182c11b33ceb7/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /home/rookie/.gradle/caches/transforms-2/files-2.1/21b57d1f37d0156c1a3e4560f5c0c405/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /home/rookie/.gradle/caches/transforms-2/files-2.1/4686eb2989522d6b4a55581c863d5509/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.0.0] /home/rookie/.gradle/caches/transforms-2/files-2.1/065d7aedc1682f5e9c6482b3fa72d8b1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /home/rookie/.gradle/caches/transforms-2/files-2.1/8b616bd47526d4a7fbdc51860b777516/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/rookie/.gradle/caches/transforms-2/files-2.1/23f06ad81487743d7d67daeeab98d7f4/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /home/rookie/.gradle/caches/transforms-2/files-2.1/26b001be63552da707f28cc63e597163/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /home/rookie/.gradle/caches/transforms-2/files-2.1/46604fd2fb0ff1eaf60d04c11d0c3fa6/AndroidManifest.xml:17:1-25:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] /home/rookie/.gradle/caches/transforms-2/files-2.1/8221334ccf64de35ee5286c987e9be4e/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/rookie/.gradle/caches/transforms-2/files-2.1/94fd333dab2327bc39dc55cf8e022549/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] /home/rookie/.gradle/caches/transforms-2/files-2.1/01495d13e324b4b5a21e4fa398f97eea/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/rookie/.gradle/caches/transforms-2/files-2.1/504979d452928878ae41d7007477d066/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/rookie/.gradle/caches/transforms-2/files-2.1/962e8904744cfe6d47a429f8ed953b83/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /home/rookie/.gradle/caches/transforms-2/files-2.1/b5fa7814cdf9c50c5e49c765571908a1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /home/rookie/.gradle/caches/transforms-2/files-2.1/4422c55cf2efc0be1e13a41050caa1f5/AndroidManifest.xml:17:1-22:12
+INJECTED from /home/rookie/Proyectos/RookieRunner/android/build/AndroidManifest.xml:2:1-71:12
+INJECTED from /home/rookie/Proyectos/RookieRunner/android/build/AndroidManifest.xml:2:1-71:12
+INJECTED from /home/rookie/Proyectos/RookieRunner/android/build/AndroidManifest.xml:2:1-71:12
+	package
+		ADDED from /home/rookie/Proyectos/RookieRunner/android/build/AndroidManifest.xml:4:5-29
+		INJECTED from /home/rookie/Proyectos/RookieRunner/android/build/AndroidManifest.xml
+		INJECTED from /home/rookie/Proyectos/RookieRunner/android/build/AndroidManifest.xml
+	android:versionName
+		ADDED from /home/rookie/Proyectos/RookieRunner/android/build/AndroidManifest.xml:6:5-30
+		INJECTED from /home/rookie/Proyectos/RookieRunner/android/build/AndroidManifest.xml
+		INJECTED from /home/rookie/Proyectos/RookieRunner/android/build/AndroidManifest.xml
+	xmlns:tools
+		ADDED from /home/rookie/Proyectos/RookieRunner/android/build/AndroidManifest.xml:3:5-51
+	xmlns:android
+		ADDED from /home/rookie/Proyectos/RookieRunner/android/build/AndroidManifest.xml:2:11-69
+	android:versionCode
+		ADDED from /home/rookie/Proyectos/RookieRunner/android/build/AndroidManifest.xml:5:5-28
+		INJECTED from /home/rookie/Proyectos/RookieRunner/android/build/AndroidManifest.xml
+		INJECTED from /home/rookie/Proyectos/RookieRunner/android/build/AndroidManifest.xml
+	android:installLocation
+		ADDED from /home/rookie/Proyectos/RookieRunner/android/build/AndroidManifest.xml:7:5-35
+supports-screens
+ADDED from /home/rookie/Proyectos/RookieRunner/android/build/AndroidManifest.xml:12:5-16:40
+	android:largeScreens
+		ADDED from /home/rookie/Proyectos/RookieRunner/android/build/AndroidManifest.xml:15:9-36
+	android:smallScreens
+		ADDED from /home/rookie/Proyectos/RookieRunner/android/build/AndroidManifest.xml:13:9-36
+	android:normalScreens
+		ADDED from /home/rookie/Proyectos/RookieRunner/android/build/AndroidManifest.xml:14:9-37
+	android:xlargeScreens
+		ADDED from /home/rookie/Proyectos/RookieRunner/android/build/AndroidManifest.xml:16:9-37
+uses-feature#0x00020000
+ADDED from /home/rookie/Proyectos/RookieRunner/android/build/AndroidManifest.xml:19:5-21:35
+	android:glEsVersion
+		ADDED from /home/rookie/Proyectos/RookieRunner/android/build/AndroidManifest.xml:20:9-41
+	android:required
+		ADDED from /home/rookie/Proyectos/RookieRunner/android/build/AndroidManifest.xml:21:9-32
+application
+ADDED from /home/rookie/Proyectos/RookieRunner/android/build/AndroidManifest.xml:30:5-69:19
+MERGED from [godot-lib.debug.aar] /home/rookie/.gradle/caches/transforms-2/files-2.1/54b80346a282e8b7e6b057a7011e5d8e/AndroidManifest.xml:17:5-19:19
+MERGED from [godot-lib.debug.aar] /home/rookie/.gradle/caches/transforms-2/files-2.1/54b80346a282e8b7e6b057a7011e5d8e/AndroidManifest.xml:17:5-19:19
+MERGED from [com.google.android.gms:play-services-games:19.0.0] /home/rookie/.gradle/caches/transforms-2/files-2.1/bd3f8609b4b7c06b8b0c1fca80454538/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-games:19.0.0] /home/rookie/.gradle/caches/transforms-2/files-2.1/bd3f8609b4b7c06b8b0c1fca80454538/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-auth:17.0.0] /home/rookie/.gradle/caches/transforms-2/files-2.1/6affc1dcd2fb7ffa36922240517a5e44/AndroidManifest.xml:22:5-37:19
+MERGED from [com.google.android.gms:play-services-auth:17.0.0] /home/rookie/.gradle/caches/transforms-2/files-2.1/6affc1dcd2fb7ffa36922240517a5e44/AndroidManifest.xml:22:5-37:19
+MERGED from [com.google.android.gms:play-services-drive:17.0.0] /home/rookie/.gradle/caches/transforms-2/files-2.1/d3205f8653189a420097cf7a85cae146/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-drive:17.0.0] /home/rookie/.gradle/caches/transforms-2/files-2.1/d3205f8653189a420097cf7a85cae146/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-base:17.0.0] /home/rookie/.gradle/caches/transforms-2/files-2.1/97bfe63d54b1c35ed48da7d5d7064341/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:17.0.0] /home/rookie/.gradle/caches/transforms-2/files-2.1/97bfe63d54b1c35ed48da7d5d7064341/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /home/rookie/.gradle/caches/transforms-2/files-2.1/818efeb0c66e71df320976b80a7ee440/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /home/rookie/.gradle/caches/transforms-2/files-2.1/818efeb0c66e71df320976b80a7ee440/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-ads-identifier:16.0.0] /home/rookie/.gradle/caches/transforms-2/files-2.1/76d872f219744d7f46d9ba88d3b78a0d/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-ads-identifier:16.0.0] /home/rookie/.gradle/caches/transforms-2/files-2.1/76d872f219744d7f46d9ba88d3b78a0d/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-ads-lite:16.0.0] /home/rookie/.gradle/caches/transforms-2/files-2.1/e08c4000668cd6668cffdd027e50a07f/AndroidManifest.xml:26:5-34:19
+MERGED from [com.google.android.gms:play-services-ads-lite:16.0.0] /home/rookie/.gradle/caches/transforms-2/files-2.1/e08c4000668cd6668cffdd027e50a07f/AndroidManifest.xml:26:5-34:19
+MERGED from [com.google.android.gms:play-services-gass:16.0.0] /home/rookie/.gradle/caches/transforms-2/files-2.1/a9c9c832adef928c1b6d681f21450e08/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-gass:16.0.0] /home/rookie/.gradle/caches/transforms-2/files-2.1/a9c9c832adef928c1b6d681f21450e08/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /home/rookie/.gradle/caches/transforms-2/files-2.1/64b9aded42b44701343e672f6715b0b0/AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /home/rookie/.gradle/caches/transforms-2/files-2.1/64b9aded42b44701343e672f6715b0b0/AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-ads-base:16.0.0] /home/rookie/.gradle/caches/transforms-2/files-2.1/920a7d6d21930c077f6b3c6786aae47c/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-ads-base:16.0.0] /home/rookie/.gradle/caches/transforms-2/files-2.1/920a7d6d21930c077f6b3c6786aae47c/AndroidManifest.xml:22:5-20
+MERGED from [androidx.core:core:1.0.0] /home/rookie/.gradle/caches/transforms-2/files-2.1/065d7aedc1682f5e9c6482b3fa72d8b1/AndroidManifest.xml:22:5-89
+MERGED from [androidx.core:core:1.0.0] /home/rookie/.gradle/caches/transforms-2/files-2.1/065d7aedc1682f5e9c6482b3fa72d8b1/AndroidManifest.xml:22:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /home/rookie/.gradle/caches/transforms-2/files-2.1/46604fd2fb0ff1eaf60d04c11d0c3fa6/AndroidManifest.xml:22:5-23:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /home/rookie/.gradle/caches/transforms-2/files-2.1/46604fd2fb0ff1eaf60d04c11d0c3fa6/AndroidManifest.xml:22:5-23:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.0.0] /home/rookie/.gradle/caches/transforms-2/files-2.1/065d7aedc1682f5e9c6482b3fa72d8b1/AndroidManifest.xml:22:18-86
+	android:label
+		ADDED from /home/rookie/Proyectos/RookieRunner/android/build/AndroidManifest.xml:30:18-67
+	tools:ignore
+		ADDED from /home/rookie/Proyectos/RookieRunner/android/build/AndroidManifest.xml:30:96-135
+	android:icon
+		ADDED from /home/rookie/Proyectos/RookieRunner/android/build/AndroidManifest.xml:30:136-163
+	android:allowBackup
+		ADDED from /home/rookie/Proyectos/RookieRunner/android/build/AndroidManifest.xml:30:68-95
+meta-data#xr_mode_metadata_name
+ADDED from /home/rookie/Proyectos/RookieRunner/android/build/AndroidManifest.xml:36:9-38:54
+	android:value
+		ADDED from /home/rookie/Proyectos/RookieRunner/android/build/AndroidManifest.xml:38:13-51
+	android:name
+		ADDED from /home/rookie/Proyectos/RookieRunner/android/build/AndroidManifest.xml:37:13-49
+activity#com.godot.game.GodotApp
+ADDED from /home/rookie/Proyectos/RookieRunner/android/build/AndroidManifest.xml:40:9-54:20
+	android:screenOrientation
+		ADDED from /home/rookie/Proyectos/RookieRunner/android/build/AndroidManifest.xml:45:13-50
+	android:label
+		ADDED from /home/rookie/Proyectos/RookieRunner/android/build/AndroidManifest.xml:42:13-62
+	android:launchMode
+		ADDED from /home/rookie/Proyectos/RookieRunner/android/build/AndroidManifest.xml:44:13-44
+	android:resizeableActivity
+		ADDED from /home/rookie/Proyectos/RookieRunner/android/build/AndroidManifest.xml:47:13-47
+	tools:ignore
+		ADDED from /home/rookie/Proyectos/RookieRunner/android/build/AndroidManifest.xml:48:13-43
+	android:configChanges
+		ADDED from /home/rookie/Proyectos/RookieRunner/android/build/AndroidManifest.xml:46:13-141
+	android:theme
+		ADDED from /home/rookie/Proyectos/RookieRunner/android/build/AndroidManifest.xml:43:13-77
+	android:name
+		ADDED from /home/rookie/Proyectos/RookieRunner/android/build/AndroidManifest.xml:41:13-37
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /home/rookie/Proyectos/RookieRunner/android/build/AndroidManifest.xml:50:13-53:29
+action#android.intent.action.MAIN
+ADDED from /home/rookie/Proyectos/RookieRunner/android/build/AndroidManifest.xml:51:17-69
+	android:name
+		ADDED from /home/rookie/Proyectos/RookieRunner/android/build/AndroidManifest.xml:51:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /home/rookie/Proyectos/RookieRunner/android/build/AndroidManifest.xml:52:17-77
+	android:name
+		ADDED from /home/rookie/Proyectos/RookieRunner/android/build/AndroidManifest.xml:52:27-74
+meta-data#com.google.android.gms.games.APP_ID
+ADDED from /home/rookie/Proyectos/RookieRunner/android/build/AndroidManifest.xml:58:1-59:123
+	android:appComponentFactory
+		ADDED from /home/rookie/Proyectos/RookieRunner/android/build/AndroidManifest.xml:59:48-121
+	android:value
+		ADDED from /home/rookie/Proyectos/RookieRunner/android/build/AndroidManifest.xml:59:5-47
+	android:name
+		ADDED from /home/rookie/Proyectos/RookieRunner/android/build/AndroidManifest.xml:58:12-62
+activity#com.google.android.gms.ads.AdActivity
+ADDED from /home/rookie/Proyectos/RookieRunner/android/build/AndroidManifest.xml:60:2-61:114
+MERGED from [com.google.android.gms:play-services-ads-lite:16.0.0] /home/rookie/.gradle/caches/transforms-2/files-2.1/e08c4000668cd6668cffdd027e50a07f/AndroidManifest.xml:29:9-33:64
+MERGED from [com.google.android.gms:play-services-ads-lite:16.0.0] /home/rookie/.gradle/caches/transforms-2/files-2.1/e08c4000668cd6668cffdd027e50a07f/AndroidManifest.xml:29:9-33:64
+	android:exported
+		ADDED from [com.google.android.gms:play-services-ads-lite:16.0.0] /home/rookie/.gradle/caches/transforms-2/files-2.1/e08c4000668cd6668cffdd027e50a07f/AndroidManifest.xml:32:13-37
+	android:configChanges
+		ADDED from /home/rookie/Proyectos/RookieRunner/android/build/AndroidManifest.xml:61:3-112
+	android:theme
+		ADDED from [com.google.android.gms:play-services-ads-lite:16.0.0] /home/rookie/.gradle/caches/transforms-2/files-2.1/e08c4000668cd6668cffdd027e50a07f/AndroidManifest.xml:33:13-61
+	android:name
+		ADDED from /home/rookie/Proyectos/RookieRunner/android/build/AndroidManifest.xml:60:12-64
+meta-data#com.google.android.gms.version
+ADDED from /home/rookie/Proyectos/RookieRunner/android/build/AndroidManifest.xml:62:2-63:132
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /home/rookie/.gradle/caches/transforms-2/files-2.1/64b9aded42b44701343e672f6715b0b0/AndroidManifest.xml:23:9-25:69
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /home/rookie/.gradle/caches/transforms-2/files-2.1/64b9aded42b44701343e672f6715b0b0/AndroidManifest.xml:23:9-25:69
+	android:appComponentFactory
+		ADDED from /home/rookie/Proyectos/RookieRunner/android/build/AndroidManifest.xml:63:57-130
+	android:value
+		ADDED from /home/rookie/Proyectos/RookieRunner/android/build/AndroidManifest.xml:63:3-56
+	android:name
+		ADDED from /home/rookie/Proyectos/RookieRunner/android/build/AndroidManifest.xml:62:13-58
+meta-data#com.google.android.gms.ads.AD_MANAGER_APP
+ADDED from /home/rookie/Proyectos/RookieRunner/android/build/AndroidManifest.xml:64:2-66:35
+	android:value
+		ADDED from /home/rookie/Proyectos/RookieRunner/android/build/AndroidManifest.xml:66:13-33
+	android:name
+		ADDED from /home/rookie/Proyectos/RookieRunner/android/build/AndroidManifest.xml:65:13-69
+uses-sdk
+INJECTED from /home/rookie/Proyectos/RookieRunner/android/build/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/rookie/Proyectos/RookieRunner/android/build/AndroidManifest.xml
+INJECTED from /home/rookie/Proyectos/RookieRunner/android/build/AndroidManifest.xml
+MERGED from [godot-lib.debug.aar] /home/rookie/.gradle/caches/transforms-2/files-2.1/54b80346a282e8b7e6b057a7011e5d8e/AndroidManifest.xml:7:5-9:41
+MERGED from [godot-lib.debug.aar] /home/rookie/.gradle/caches/transforms-2/files-2.1/54b80346a282e8b7e6b057a7011e5d8e/AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.android.gms:play-services-games:19.0.0] /home/rookie/.gradle/caches/transforms-2/files-2.1/bd3f8609b4b7c06b8b0c1fca80454538/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-games:19.0.0] /home/rookie/.gradle/caches/transforms-2/files-2.1/bd3f8609b4b7c06b8b0c1fca80454538/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-auth:17.0.0] /home/rookie/.gradle/caches/transforms-2/files-2.1/6affc1dcd2fb7ffa36922240517a5e44/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-auth:17.0.0] /home/rookie/.gradle/caches/transforms-2/files-2.1/6affc1dcd2fb7ffa36922240517a5e44/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads:16.0.0] /home/rookie/.gradle/caches/transforms-2/files-2.1/1d4b9220e50738674bb91dc7081dad43/AndroidManifest.xml:21:5-23:52
+MERGED from [com.google.android.gms:play-services-ads:16.0.0] /home/rookie/.gradle/caches/transforms-2/files-2.1/1d4b9220e50738674bb91dc7081dad43/AndroidManifest.xml:21:5-23:52
+MERGED from [com.google.android.gms:play-services-drive:17.0.0] /home/rookie/.gradle/caches/transforms-2/files-2.1/d3205f8653189a420097cf7a85cae146/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-drive:17.0.0] /home/rookie/.gradle/caches/transforms-2/files-2.1/d3205f8653189a420097cf7a85cae146/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-auth-api-phone:17.0.0] /home/rookie/.gradle/caches/transforms-2/files-2.1/24c70606d974484ee6efcdd526049857/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-api-phone:17.0.0] /home/rookie/.gradle/caches/transforms-2/files-2.1/24c70606d974484ee6efcdd526049857/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-base:17.0.0] /home/rookie/.gradle/caches/transforms-2/files-2.1/b4571f8bb6ad419f89f75a8855d3e4fe/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-base:17.0.0] /home/rookie/.gradle/caches/transforms-2/files-2.1/b4571f8bb6ad419f89f75a8855d3e4fe/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-base:17.0.0] /home/rookie/.gradle/caches/transforms-2/files-2.1/97bfe63d54b1c35ed48da7d5d7064341/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:17.0.0] /home/rookie/.gradle/caches/transforms-2/files-2.1/97bfe63d54b1c35ed48da7d5d7064341/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /home/rookie/.gradle/caches/transforms-2/files-2.1/818efeb0c66e71df320976b80a7ee440/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /home/rookie/.gradle/caches/transforms-2/files-2.1/818efeb0c66e71df320976b80a7ee440/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:16.0.0] /home/rookie/.gradle/caches/transforms-2/files-2.1/76d872f219744d7f46d9ba88d3b78a0d/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:16.0.0] /home/rookie/.gradle/caches/transforms-2/files-2.1/76d872f219744d7f46d9ba88d3b78a0d/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-lite:16.0.0] /home/rookie/.gradle/caches/transforms-2/files-2.1/e08c4000668cd6668cffdd027e50a07f/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-lite:16.0.0] /home/rookie/.gradle/caches/transforms-2/files-2.1/e08c4000668cd6668cffdd027e50a07f/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-gass:16.0.0] /home/rookie/.gradle/caches/transforms-2/files-2.1/a9c9c832adef928c1b6d681f21450e08/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-gass:16.0.0] /home/rookie/.gradle/caches/transforms-2/files-2.1/a9c9c832adef928c1b6d681f21450e08/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /home/rookie/.gradle/caches/transforms-2/files-2.1/64b9aded42b44701343e672f6715b0b0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /home/rookie/.gradle/caches/transforms-2/files-2.1/64b9aded42b44701343e672f6715b0b0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.0.0] /home/rookie/.gradle/caches/transforms-2/files-2.1/8ecb503c243a8b585c19cf5fecee7378/AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.0.0] /home/rookie/.gradle/caches/transforms-2/files-2.1/8ecb503c243a8b585c19cf5fecee7378/AndroidManifest.xml:20:5-44
+MERGED from [androidx.browser:browser:1.0.0] /home/rookie/.gradle/caches/transforms-2/files-2.1/72d1bbba8bf383c0433aad41fa4cb2fc/AndroidManifest.xml:20:5-44
+MERGED from [androidx.browser:browser:1.0.0] /home/rookie/.gradle/caches/transforms-2/files-2.1/72d1bbba8bf383c0433aad41fa4cb2fc/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /home/rookie/.gradle/caches/transforms-2/files-2.1/55da32bc307de6cd8963f1e5da602e7b/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /home/rookie/.gradle/caches/transforms-2/files-2.1/55da32bc307de6cd8963f1e5da602e7b/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/rookie/.gradle/caches/transforms-2/files-2.1/76fe599d02f1febf78a893dfad6cf223/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/rookie/.gradle/caches/transforms-2/files-2.1/76fe599d02f1febf78a893dfad6cf223/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /home/rookie/.gradle/caches/transforms-2/files-2.1/71561fe04f37c5db5eb61c2641f3aaf5/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /home/rookie/.gradle/caches/transforms-2/files-2.1/71561fe04f37c5db5eb61c2641f3aaf5/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-base:16.0.0] /home/rookie/.gradle/caches/transforms-2/files-2.1/920a7d6d21930c077f6b3c6786aae47c/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-base:16.0.0] /home/rookie/.gradle/caches/transforms-2/files-2.1/920a7d6d21930c077f6b3c6786aae47c/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/rookie/.gradle/caches/transforms-2/files-2.1/c87992f0829d80ae761e3db77e78aa1b/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/rookie/.gradle/caches/transforms-2/files-2.1/c87992f0829d80ae761e3db77e78aa1b/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /home/rookie/.gradle/caches/transforms-2/files-2.1/0457e5618ffd3743087eb6ab1ffa135a/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /home/rookie/.gradle/caches/transforms-2/files-2.1/0457e5618ffd3743087eb6ab1ffa135a/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/rookie/.gradle/caches/transforms-2/files-2.1/c0c564d7e09cdfa03902bae059905c89/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/rookie/.gradle/caches/transforms-2/files-2.1/c0c564d7e09cdfa03902bae059905c89/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /home/rookie/.gradle/caches/transforms-2/files-2.1/d0343d13c2c61c61558e77c77d30a24d/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /home/rookie/.gradle/caches/transforms-2/files-2.1/d0343d13c2c61c61558e77c77d30a24d/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /home/rookie/.gradle/caches/transforms-2/files-2.1/63dfe47d370a3c6ad77182c11b33ceb7/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /home/rookie/.gradle/caches/transforms-2/files-2.1/63dfe47d370a3c6ad77182c11b33ceb7/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /home/rookie/.gradle/caches/transforms-2/files-2.1/21b57d1f37d0156c1a3e4560f5c0c405/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /home/rookie/.gradle/caches/transforms-2/files-2.1/21b57d1f37d0156c1a3e4560f5c0c405/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /home/rookie/.gradle/caches/transforms-2/files-2.1/4686eb2989522d6b4a55581c863d5509/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /home/rookie/.gradle/caches/transforms-2/files-2.1/4686eb2989522d6b4a55581c863d5509/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.0.0] /home/rookie/.gradle/caches/transforms-2/files-2.1/065d7aedc1682f5e9c6482b3fa72d8b1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.0.0] /home/rookie/.gradle/caches/transforms-2/files-2.1/065d7aedc1682f5e9c6482b3fa72d8b1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /home/rookie/.gradle/caches/transforms-2/files-2.1/8b616bd47526d4a7fbdc51860b777516/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /home/rookie/.gradle/caches/transforms-2/files-2.1/8b616bd47526d4a7fbdc51860b777516/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/rookie/.gradle/caches/transforms-2/files-2.1/23f06ad81487743d7d67daeeab98d7f4/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/rookie/.gradle/caches/transforms-2/files-2.1/23f06ad81487743d7d67daeeab98d7f4/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /home/rookie/.gradle/caches/transforms-2/files-2.1/26b001be63552da707f28cc63e597163/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /home/rookie/.gradle/caches/transforms-2/files-2.1/26b001be63552da707f28cc63e597163/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /home/rookie/.gradle/caches/transforms-2/files-2.1/46604fd2fb0ff1eaf60d04c11d0c3fa6/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /home/rookie/.gradle/caches/transforms-2/files-2.1/46604fd2fb0ff1eaf60d04c11d0c3fa6/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] /home/rookie/.gradle/caches/transforms-2/files-2.1/8221334ccf64de35ee5286c987e9be4e/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] /home/rookie/.gradle/caches/transforms-2/files-2.1/8221334ccf64de35ee5286c987e9be4e/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/rookie/.gradle/caches/transforms-2/files-2.1/94fd333dab2327bc39dc55cf8e022549/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/rookie/.gradle/caches/transforms-2/files-2.1/94fd333dab2327bc39dc55cf8e022549/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] /home/rookie/.gradle/caches/transforms-2/files-2.1/01495d13e324b4b5a21e4fa398f97eea/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] /home/rookie/.gradle/caches/transforms-2/files-2.1/01495d13e324b4b5a21e4fa398f97eea/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/rookie/.gradle/caches/transforms-2/files-2.1/504979d452928878ae41d7007477d066/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/rookie/.gradle/caches/transforms-2/files-2.1/504979d452928878ae41d7007477d066/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/rookie/.gradle/caches/transforms-2/files-2.1/962e8904744cfe6d47a429f8ed953b83/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/rookie/.gradle/caches/transforms-2/files-2.1/962e8904744cfe6d47a429f8ed953b83/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /home/rookie/.gradle/caches/transforms-2/files-2.1/b5fa7814cdf9c50c5e49c765571908a1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /home/rookie/.gradle/caches/transforms-2/files-2.1/b5fa7814cdf9c50c5e49c765571908a1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /home/rookie/.gradle/caches/transforms-2/files-2.1/4422c55cf2efc0be1e13a41050caa1f5/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /home/rookie/.gradle/caches/transforms-2/files-2.1/4422c55cf2efc0be1e13a41050caa1f5/AndroidManifest.xml:20:5-44
+INJECTED from /home/rookie/Proyectos/RookieRunner/android/build/AndroidManifest.xml
+INJECTED from /home/rookie/Proyectos/RookieRunner/android/build/AndroidManifest.xml
+	tools:overrideLibrary
+		ADDED from [com.google.android.gms:play-services-ads:16.0.0] /home/rookie/.gradle/caches/transforms-2/files-2.1/1d4b9220e50738674bb91dc7081dad43/AndroidManifest.xml:23:9-49
+	android:targetSdkVersion
+		INJECTED from /home/rookie/Proyectos/RookieRunner/android/build/AndroidManifest.xml
+		ADDED from /home/rookie/Proyectos/RookieRunner/android/build/AndroidManifest.xml
+		INJECTED from /home/rookie/Proyectos/RookieRunner/android/build/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/rookie/Proyectos/RookieRunner/android/build/AndroidManifest.xml
+		ADDED from /home/rookie/Proyectos/RookieRunner/android/build/AndroidManifest.xml
+		INJECTED from /home/rookie/Proyectos/RookieRunner/android/build/AndroidManifest.xml
+instrumentation
+ADDED from [godot-lib.debug.aar] /home/rookie/.gradle/caches/transforms-2/files-2.1/54b80346a282e8b7e6b057a7011e5d8e/AndroidManifest.xml:11:5-15:57
+	android:label
+		ADDED from [godot-lib.debug.aar] /home/rookie/.gradle/caches/transforms-2/files-2.1/54b80346a282e8b7e6b057a7011e5d8e/AndroidManifest.xml:14:9-58
+	android:icon
+		ADDED from [godot-lib.debug.aar] /home/rookie/.gradle/caches/transforms-2/files-2.1/54b80346a282e8b7e6b057a7011e5d8e/AndroidManifest.xml:13:9-36
+	android:targetPackage
+		ADDED from [godot-lib.debug.aar] /home/rookie/.gradle/caches/transforms-2/files-2.1/54b80346a282e8b7e6b057a7011e5d8e/AndroidManifest.xml:15:9-54
+	android:name
+		ADDED from [godot-lib.debug.aar] /home/rookie/.gradle/caches/transforms-2/files-2.1/54b80346a282e8b7e6b057a7011e5d8e/AndroidManifest.xml:12:9-45
+service#org.godotengine.godot.GodotDownloaderService
+ADDED from [godot-lib.debug.aar] /home/rookie/.gradle/caches/transforms-2/files-2.1/54b80346a282e8b7e6b057a7011e5d8e/AndroidManifest.xml:18:9-80
+	android:name
+		ADDED from [godot-lib.debug.aar] /home/rookie/.gradle/caches/transforms-2/files-2.1/54b80346a282e8b7e6b057a7011e5d8e/AndroidManifest.xml:18:18-77
+activity#com.google.android.gms.auth.api.signin.internal.SignInHubActivity
+ADDED from [com.google.android.gms:play-services-auth:17.0.0] /home/rookie/.gradle/caches/transforms-2/files-2.1/6affc1dcd2fb7ffa36922240517a5e44/AndroidManifest.xml:23:9-27:75
+	android:excludeFromRecents
+		ADDED from [com.google.android.gms:play-services-auth:17.0.0] /home/rookie/.gradle/caches/transforms-2/files-2.1/6affc1dcd2fb7ffa36922240517a5e44/AndroidManifest.xml:25:13-46
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:17.0.0] /home/rookie/.gradle/caches/transforms-2/files-2.1/6affc1dcd2fb7ffa36922240517a5e44/AndroidManifest.xml:26:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-auth:17.0.0] /home/rookie/.gradle/caches/transforms-2/files-2.1/6affc1dcd2fb7ffa36922240517a5e44/AndroidManifest.xml:27:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:17.0.0] /home/rookie/.gradle/caches/transforms-2/files-2.1/6affc1dcd2fb7ffa36922240517a5e44/AndroidManifest.xml:24:13-93
+service#com.google.android.gms.auth.api.signin.RevocationBoundService
+ADDED from [com.google.android.gms:play-services-auth:17.0.0] /home/rookie/.gradle/caches/transforms-2/files-2.1/6affc1dcd2fb7ffa36922240517a5e44/AndroidManifest.xml:33:9-36:110
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:17.0.0] /home/rookie/.gradle/caches/transforms-2/files-2.1/6affc1dcd2fb7ffa36922240517a5e44/AndroidManifest.xml:35:13-36
+	android:permission
+		ADDED from [com.google.android.gms:play-services-auth:17.0.0] /home/rookie/.gradle/caches/transforms-2/files-2.1/6affc1dcd2fb7ffa36922240517a5e44/AndroidManifest.xml:36:13-107
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:17.0.0] /home/rookie/.gradle/caches/transforms-2/files-2.1/6affc1dcd2fb7ffa36922240517a5e44/AndroidManifest.xml:34:13-89
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:17.0.0] /home/rookie/.gradle/caches/transforms-2/files-2.1/97bfe63d54b1c35ed48da7d5d7064341/AndroidManifest.xml:23:9-26:75
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:17.0.0] /home/rookie/.gradle/caches/transforms-2/files-2.1/97bfe63d54b1c35ed48da7d5d7064341/AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:17.0.0] /home/rookie/.gradle/caches/transforms-2/files-2.1/97bfe63d54b1c35ed48da7d5d7064341/AndroidManifest.xml:26:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:17.0.0] /home/rookie/.gradle/caches/transforms-2/files-2.1/97bfe63d54b1c35ed48da7d5d7064341/AndroidManifest.xml:24:13-79
+uses-permission#android.permission.INTERNET
+ADDED from [com.google.android.gms:play-services-ads-lite:16.0.0] /home/rookie/.gradle/caches/transforms-2/files-2.1/e08c4000668cd6668cffdd027e50a07f/AndroidManifest.xml:23:5-67
+	android:name
+		ADDED from [com.google.android.gms:play-services-ads-lite:16.0.0] /home/rookie/.gradle/caches/transforms-2/files-2.1/e08c4000668cd6668cffdd027e50a07f/AndroidManifest.xml:23:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.google.android.gms:play-services-ads-lite:16.0.0] /home/rookie/.gradle/caches/transforms-2/files-2.1/e08c4000668cd6668cffdd027e50a07f/AndroidManifest.xml:24:5-79
+	android:name
+		ADDED from [com.google.android.gms:play-services-ads-lite:16.0.0] /home/rookie/.gradle/caches/transforms-2/files-2.1/e08c4000668cd6668cffdd027e50a07f/AndroidManifest.xml:24:22-76

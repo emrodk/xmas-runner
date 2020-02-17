@@ -1,0 +1,4 @@
+#Fri Jan 31 13:55:16 ART 2020
+base.0=/home/rookie/Proyectos/RookieRunner/android/build/build/intermediates/dex/debug/mergeDexDebug/out
+path.0=classes.dex
+renamed.0=classes.dex

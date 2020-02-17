@@ -1,0 +1,38 @@
+[gd_scene load_steps=5 format=2]
+
+[ext_resource path="res://Assets/Scripts/enemies/Rook/Rook.gd" type="Script" id=1]
+[ext_resource path="res://core/spawnable.tscn" type="PackedScene" id=2]
+[ext_resource path="res://Assets/Scripts/enemies/Rook/RookBody.tscn" type="PackedScene" id=3]
+
+[sub_resource type="RectangleShape2D" id=1]
+extents = Vector2( 49.3908, 122.004 )
+
+[node name="Rook" type="Node2D"]
+scale = Vector2( 4, 4 )
+script = ExtResource( 1 )
+
+[node name="RookBody" parent="." instance=ExtResource( 3 )]
+
+[node name="AnimatedSprite" parent="RookBody" index="1"]
+frame = 3
+
+[node name="CollisionShape2D2" parent="RookBody/KillNode" index="0"]
+position = Vector2( -1.26284, -17.0036 )
+
+[node name="Area2D" type="Area2D" parent="."]
+position = Vector2( -175.109, 85.6201 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D"]
+shape = SubResource( 1 )
+
+[node name="spawnable" parent="." instance=ExtResource( 2 )]
+root_path = NodePath("..")
+high_level = 1
+[connection signal="body_entered" from="RookBody" to="." method="_on_RookBody_body_entered"]
+[connection signal="body_entered" from="RookBody/KillNode" to="." method="_on_KillNode_body_entered"]
+[connection signal="body_entered" from="Area2D" to="." method="_on_Area2D_body_entered"]
+
+[editable path="RookBody"]

@@ -1,98 +1,126 @@
+class_name Player
 extends KinematicBody2D
 
-#Enum don't work on export
-#enum STATE{
-#	WAIT,
-#	RUN,
-#	DEAD
-#}
+onready var animator=$AnimationPlayer
 
-#Use dictionnary to manage states
-#could have used constant int instead
-const STATE={
-	"WAIT":0,
-	"RUN":1,
-	"DEAD":2
-}
+var velocity = Vector2()
+var jumping = false
+var _is_running=false
+var _is_death=false
+var spring:bool
+var spring_jump_speed=-3900
+var is_falling:bool
+var _initial_position:Vector2
 
-export var run_speed=500
-export var jump_strength=1500
-export var gravity_strength=4000
-#same value as parallax.ground_y
-export var ground_y=500
+var hit_bat:bool
+var hit_bat_jump_speed=-2300
+var _material_sprite:Material
+var prev_high:float
 
-signal on_dead
+var _shield:bool
 
-var _velocity=Vector2(0,0)
-var _can_jump=true
-var _state=STATE.WAIT
+var _data:PlayerData
 
-onready var sprite_node=get_node("santa_claus")
-onready var animator=get_node("AnimationPlayer")
+func _ready():
+	animator.play("Idle")
+	_initial_position=position
+	_material_sprite = $Node2D/santa_claus.get_material()
+	_data = CoreGame.get_data("PlayerData")
+	ScheduleBoard.connect("start_to_run",self,"start_run")
 
-func run():
-	_state=STATE.RUN
-	set_fixed_process(true)
-	
-func _fixed_process(delta):
-	var pos=get_pos();
-	
-	if(_state==STATE.RUN):
-		#constant run velocity
-		_velocity.x=run_speed
-	if(_state==STATE.DEAD and abs(_velocity.x)>0):
-		#friction
-		_velocity.x*=0.8
+func start_run():
+	is_falling=false
+	$collision.set_disabled(false)
+	_is_running=true
+	_is_death=false
+	shield_down()
+	animator.play("run")
+	set_physics_process(true)
 
-	#Jump management
-	if(_state==STATE.RUN and _can_jump):
-		_velocity.y=0
-		#see projet parameter controls
-		if(Input.is_action_pressed("jump")):
-			#Y axis is pointing down
-			_velocity.y-=jump_strength
-			sprite_node.play("jump")
-			_can_jump=false
+func get_input():
+	var jump = Input.is_action_just_pressed('jump')
+	if jump and is_on_floor():
+		jumping = true
+		velocity.y = _data.jump_speed
+		animator.play("jump")
+	if spring:
+		jumping = true
+		spring=false
+		velocity.y = spring_jump_speed
+		animator.play("jump")
+	if hit_bat:
+		jumping = true
+		hit_bat=false
+		velocity.y = hit_bat_jump_speed
+		animator.play("jump")
+
+func _physics_process(delta):
+	if _is_running:
+		get_input()
+		velocity.x=0
+		velocity.y += _data.gravity * delta
+		if(velocity.y>600):
+			animator.play("run")
+		if jumping and is_on_floor():
+			jumping = false
+		velocity = move_and_slide(velocity, Vector2(0, -1),true)
+	elif _is_death:
+		velocity.y += _data.gravity * delta
+		velocity = move_and_slide(velocity, Vector2(0, -1),true)
+	elif is_on_floor():
+		set_physics_process(false)
+	position.x=_initial_position.x
+	if animator.current_animation == "jump" && $Node2D/santa_claus.frame>=6 && prev_high<position.y:
+		animator.play("fall")
+#		pass
+
+func kill():
+	if _shield and not is_falling:
+		shield_down()
 	else:
-		#Player is jumping
-		# => gravity integration (acceleration)
-		_velocity.y+=delta*gravity_strength
+		_is_running=false
+		_is_death=true
+		spring=false
+		hit_bat=false
+		jumping=false
+		if(is_falling):
+			animator.play("fall")
+		else:
+			animator.play("dead")
+		ScheduleBoard.emit_signal("player_death")
 
-	#wished motion
-	var motion = _velocity * delta
-	
-	#As ground is always at same y
-	#we just test position (could have used collision detection instead)
-	if(pos.y+motion.y>ground_y):
-		#player is on the floor
-		motion.y=ground_y-pos.y
-		#reset gravity
-		_velocity.y=0
-		#if player is not dead
-		if(_state==STATE.RUN):
-			sprite_node.play("run")
-			_can_jump=true
-		
+func jump():
+	if(!_is_death):
+		Input.action_press("jump",1)
 
-	motion = move(motion)
+func spring_jump():
+	if(!_is_death):
+		spring=true
+
+func bat_jump():
+	if(!_is_death):
+		hit_bat=true
+
+func fall():
+	is_falling=true
 	
-	if (is_colliding()):
-		if(_state==STATE.RUN):
-			#see group of bat and rock nodes
-			if(get_collider().is_in_group("dead")):
-				animator.play("dead")
-				emit_signal("on_dead")
-				_state=STATE.DEAD
-			else:
-				#if not enemy it's ground
-				#normaly not used here
-				_velocity.y=0
-				_can_jump=true
-				sprite_node.play("run")
-		#player can't do wished motion because of collision
-		#so he will slide along the normal to get proper position
-		#velocity is also updated
-		var n = get_collision_normal()
-		motion = n.slide(motion)
-		_velocity = n.slide(_velocity)
-		move(motion)
+func shield_up(duration:int):
+	_set_aura(2)#Level two aura
+	_shield=true
+	ScheduleBoard.call("shield_up",true)
+	$OneTime.start(duration,"shield")
+
+func _set_aura(level:int):
+	_material_sprite.set_shader_param("aura_color",Info.get_shield_color())
+	_material_sprite.set_shader_param("aura_width",level)
+	
+func shield_down():
+	if _shield:
+		_set_aura(0)
+		_shield=false
+		ScheduleBoard.call("shield_up",false)
+
+func _on_OneTime_timeout(name):
+	match name:
+		"shield":
+			shield_down()

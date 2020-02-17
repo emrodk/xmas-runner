@@ -1,0 +1,177 @@
+[gd_scene load_steps=5 format=2]
+
+[ext_resource path="res://Assets/Art/stage/background-2.png" type="Texture" id=2]
+[ext_resource path="res://Assets/Art/stage/trees-back.png" type="Texture" id=3]
+[ext_resource path="res://Assets/Art/stage/trees-front.png" type="Texture" id=4]
+[ext_resource path="res://Assets/Art/stage/floor.png" type="Texture" id=5]
+
+[node name="parallax" type="Node2D"]
+
+[node name="ParallaxBackground" type="ParallaxBackground" parent="."]
+scroll_ignore_camera_zoom = true
+
+[node name="layer_background" type="ParallaxLayer" parent="ParallaxBackground"]
+motion_scale = Vector2( 0.1, 1 )
+motion_mirroring = Vector2( 7760, 0 )
+
+[node name="background" type="Sprite" parent="ParallaxBackground/layer_background"]
+texture = ExtResource( 2 )
+centered = false
+region_rect = Rect2( 0, 0, 3880, 1658 )
+
+[node name="background2" type="Sprite" parent="ParallaxBackground/layer_background"]
+position = Vector2( 3880, 0 )
+texture = ExtResource( 2 )
+centered = false
+region_rect = Rect2( 0, 0, 3880, 1658 )
+
+[node name="layer_middle2" type="ParallaxLayer" parent="ParallaxBackground"]
+motion_scale = Vector2( 0.4, 1 )
+motion_mirroring = Vector2( 7760, 0 )
+
+[node name="trees-back" type="Sprite" parent="ParallaxBackground/layer_middle2"]
+position = Vector2( 0, 1210 )
+texture = ExtResource( 3 )
+centered = false
+
+[node name="trees-back2" type="Sprite" parent="ParallaxBackground/layer_middle2"]
+position = Vector2( 3880, 1210 )
+texture = ExtResource( 3 )
+centered = false
+
+[node name="layer_middle1" type="ParallaxLayer" parent="ParallaxBackground"]
+motion_scale = Vector2( 0.9, 1 )
+motion_mirroring = Vector2( 7760, 0 )
+
+[node name="trees-front" type="Sprite" parent="ParallaxBackground/layer_middle1"]
+position = Vector2( 0, 1028 )
+texture = ExtResource( 4 )
+centered = false
+
+[node name="trees-front2" type="Sprite" parent="ParallaxBackground/layer_middle1"]
+position = Vector2( 3880, 1028 )
+texture = ExtResource( 4 )
+centered = false
+
+[node name="layer_foreground" type="ParallaxLayer" parent="ParallaxBackground"]
+motion_mirroring = Vector2( 7760, 0 )
+
+[node name="ground" type="Sprite" parent="ParallaxBackground/layer_foreground"]
+position = Vector2( 0, 1798 )
+texture = ExtResource( 5 )
+centered = false
+region_rect = Rect2( 0, 0, 128, 128 )
+
+[node name="ground2" type="Sprite" parent="ParallaxBackground/layer_foreground"]
+position = Vector2( 388, 1798 )
+texture = ExtResource( 5 )
+centered = false
+region_rect = Rect2( 0, 0, 128, 128 )
+
+[node name="ground3" type="Sprite" parent="ParallaxBackground/layer_foreground"]
+position = Vector2( 776, 1798 )
+texture = ExtResource( 5 )
+centered = false
+region_rect = Rect2( 0, 0, 128, 128 )
+
+[node name="ground4" type="Sprite" parent="ParallaxBackground/layer_foreground"]
+position = Vector2( 1164, 1798 )
+texture = ExtResource( 5 )
+centered = false
+region_rect = Rect2( 0, 0, 128, 128 )
+
+[node name="ground5" type="Sprite" parent="ParallaxBackground/layer_foreground"]
+position = Vector2( 1552, 1798 )
+texture = ExtResource( 5 )
+centered = false
+region_rect = Rect2( 0, 0, 128, 128 )
+
+[node name="ground6" type="Sprite" parent="ParallaxBackground/layer_foreground"]
+position = Vector2( 1940, 1798 )
+texture = ExtResource( 5 )
+centered = false
+region_rect = Rect2( 0, 0, 128, 128 )
+
+[node name="ground7" type="Sprite" parent="ParallaxBackground/layer_foreground"]
+position = Vector2( 2328, 1798 )
+texture = ExtResource( 5 )
+centered = false
+region_rect = Rect2( 0, 0, 128, 128 )
+
+[node name="ground8" type="Sprite" parent="ParallaxBackground/layer_foreground"]
+position = Vector2( 2716, 1798 )
+texture = ExtResource( 5 )
+centered = false
+region_rect = Rect2( 0, 0, 128, 128 )
+
+[node name="ground9" type="Sprite" parent="ParallaxBackground/layer_foreground"]
+position = Vector2( 3104, 1798 )
+texture = ExtResource( 5 )
+centered = false
+region_rect = Rect2( 0, 0, 128, 128 )
+
+[node name="ground10" type="Sprite" parent="ParallaxBackground/layer_foreground"]
+position = Vector2( 3492, 1798 )
+texture = ExtResource( 5 )
+centered = false
+region_rect = Rect2( 0, 0, 128, 128 )
+
+[node name="ground11" type="Sprite" parent="ParallaxBackground/layer_foreground"]
+position = Vector2( 3880, 1798 )
+texture = ExtResource( 5 )
+centered = false
+region_rect = Rect2( 0, 0, 128, 128 )
+
+[node name="ground12" type="Sprite" parent="ParallaxBackground/layer_foreground"]
+position = Vector2( 4268, 1798 )
+texture = ExtResource( 5 )
+centered = false
+region_rect = Rect2( 0, 0, 128, 128 )
+
+[node name="ground13" type="Sprite" parent="ParallaxBackground/layer_foreground"]
+position = Vector2( 4656, 1798 )
+texture = ExtResource( 5 )
+centered = false
+region_rect = Rect2( 0, 0, 128, 128 )
+
+[node name="ground14" type="Sprite" parent="ParallaxBackground/layer_foreground"]
+position = Vector2( 5044, 1798 )
+texture = ExtResource( 5 )
+centered = false
+region_rect = Rect2( 0, 0, 128, 128 )
+
+[node name="ground15" type="Sprite" parent="ParallaxBackground/layer_foreground"]
+position = Vector2( 5432, 1798 )
+texture = ExtResource( 5 )
+centered = false
+region_rect = Rect2( 0, 0, 128, 128 )
+
+[node name="ground16" type="Sprite" parent="ParallaxBackground/layer_foreground"]
+position = Vector2( 5820, 1798 )
+texture = ExtResource( 5 )
+centered = false
+region_rect = Rect2( 0, 0, 128, 128 )
+
+[node name="ground17" type="Sprite" parent="ParallaxBackground/layer_foreground"]
+position = Vector2( 6208, 1798 )
+texture = ExtResource( 5 )
+centered = false
+region_rect = Rect2( 0, 0, 128, 128 )
+
+[node name="ground18" type="Sprite" parent="ParallaxBackground/layer_foreground"]
+position = Vector2( 6596, 1798 )
+texture = ExtResource( 5 )
+centered = false
+region_rect = Rect2( 0, 0, 128, 128 )
+
+[node name="ground19" type="Sprite" parent="ParallaxBackground/layer_foreground"]
+position = Vector2( 6984, 1798 )
+texture = ExtResource( 5 )
+centered = false
+region_rect = Rect2( 0, 0, 128, 128 )
+
+[node name="ground20" type="Sprite" parent="ParallaxBackground/layer_foreground"]
+position = Vector2( 7372, 1798 )
+texture = ExtResource( 5 )
+centered = false
+region_rect = Rect2( 0, 0, 128, 128 )

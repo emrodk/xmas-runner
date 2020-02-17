@@ -1,0 +1,32 @@
+[gd_scene load_steps=4 format=2]
+
+[ext_resource path="res://Assets/Scripts/enemies/Pad/BaseJump.gd" type="Script" id=1]
+
+[sub_resource type="RectangleShape2D" id=1]
+extents = Vector2( 63.46, 14.138 )
+
+[sub_resource type="ConvexPolygonShape2D" id=2]
+points = PoolVector2Array( 38, -19, 60, 5, -96, 5, -46, -19 )
+
+[node name="JumpOnContact" type="Node2D"]
+
+[node name="BaseJump" type="Area2D" parent="."]
+position = Vector2( -19.0296, -6.37729 )
+script = ExtResource( 1 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="BaseJump"]
+position = Vector2( -5, -9 )
+shape = SubResource( 1 )
+
+[node name="StartAnimation" type="Area2D" parent="."]
+position = Vector2( 4.57715, -37.2544 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="StartAnimation"]
+shape = SubResource( 2 )
+[connection signal="body_entered" from="BaseJump" to="BaseJump" method="_on_BaseJump_body_entered"]

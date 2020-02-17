@@ -1,0 +1,12 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://Assets/Scripts/Core/ScheduleBoard.gd" type="Script" id=1]
+[ext_resource path="res://core/TimeController/TimeControl.tscn" type="PackedScene" id=2]
+
+[node name="ScheduleBoard" type="Node"]
+script = ExtResource( 1 )
+
+[node name="spawn_time" parent="." instance=ExtResource( 2 )]
+_duration = 2
+signal_name = "spawn_time"
+[connection signal="timeout" from="spawn_time" to="." method="call"]
